@@ -1,3 +1,41 @@
+img {
+  max-width: 100%;
+}
+footer {
+  float: right;
+}
 #mainPage {
   margin: 0 auto;
 }
+#slogan {
+  padding-top: 10px;
+  font-size: 16px;
+}
+#menu {
+  background-color: black;
+}
+#nav-tabs {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+#bootstrapOverrides .form-group input {
+  width: 50%;
+}
+#bootstrapOverrides h2 {
+  padding: 1em;
+}
+#bootstrapOverrides #footer {
+  height: 3em;
+  background-color: black;
+  color: #ffffff;
+}
+#registerForm {
+  margin: 5em;
+  margin-top: 0;
+}
+#loginForm {
+  margin-top: 5em;
+}
+
+
