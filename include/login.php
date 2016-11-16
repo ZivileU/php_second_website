@@ -16,12 +16,6 @@
       $_SESSION['email'] = $row->email;
       $_SESSION['image'] = $row->image;
       $name = $_SESSION['name'];
-
-      if(isset($_COOKIE[$name])){
-        setcookie($name, $_COOKIE[$name] + 1, time()+60*60*24*30, "/");
-      }else{
-        setcookie($name, 1, time()+60*60*24*30, "/");
-      }
       header('Location: ../admin.php');
 
     }else{

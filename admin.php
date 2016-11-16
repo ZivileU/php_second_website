@@ -12,7 +12,6 @@ if(isset($_SESSION['id'])){
 <div class="container">
   <div class="row">
     <h3>Hi <?php echo $name ?>. This is your profile admin page</h3>
-    <p>Times logged in: <?php echo $_COOKIE[$name]; ?></p>
     <img src="images/<? echo $image ?>" alt="profile image of <?php $name ?>">
     <p>Your registered email is <?php echo $email?></p>
   </div>
